@@ -1,0 +1,153 @@
+/* [html]  */
+
+
+.html {
+    width: 100%;
+    height: auto;
+    background-color: var(--colorWhite);
+}
+
+.box_html {
+    width: 1080px;
+    height: auto;
+    margin: auto;
+}
+
+.box_html h1 {
+    padding-top: 40px;
+    font-family: 'Passion One', cursive, 'Bayon';
+
+
+}
+
+.box_html .day1 {
+    width: 100%;
+    height: 250px;
+    background-color: #FFFEFE;
+    border-radius: 12px;
+    box-shadow: var(--boxShadow);
+    transition: 0.2s;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.box_html .day1:hover {
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.2s;
+    cursor: pointer;
+}
+
+.day1 span {
+    position: absolute;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    top: -10px;
+    left: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.day1 span::before {
+    content: 'Day1';
+    position: absolute;
+    width: 150%;
+    height: 40px;
+    background-image: linear-gradient(45deg, #ff6547 0%, #ffb144 51%, #ff7053 100%);
+    transform: rotate(-45deg) translateY(-20px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.23);
+}
+
+.day1 span::after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    bottom: 0;
+    left: 0;
+    height: 10px;
+    z-index: -1;
+    box-shadow: 140px -140px #cc3f47;
+    background-image: linear-gradient(45deg, #FF512F 0%, #F09819 51%, #FF512F 100%);
+}
+
+
+/* [html]  */
+
+/* [Banner Ads] */
+.container_banner_ads {
+    margin-top: 40px;
+}
+.banner_ads {
+    width: 1080px;
+    height: 100px; 
+    background-color: #FFFEFE;
+    box-shadow: var(--boxShadow);
+    border-radius: 12px;
+    margin: auto;
+    display: grid;
+    place-content: center;
+   
+}
+
+/* [Banner Ads] */
+
+/* [Left_Side_Ads] */
+
+.Left_Side_Ads {
+    width: 300px;
+    height: 545px;
+    background-color: #FFFEFE;
+    box-shadow: var(--boxShadow);
+    position: fixed;
+    left: 3.5%;
+    top: 25%;
+    border-radius: 12px;
+    display: grid;
+    place-content: center;
+}
+
+/* [Left_Side_Ads] */
+
+/* [Right_Side_Ads] */
+
+.Right_Side_Ads {
+    width: 300px;
+    height: 545px;
+    background-color: #FFFEFE;
+    box-shadow: var(--boxShadow);
+    position: fixed;
+    right: 3.5%;
+    top: 25%;
+    border-radius: 12px;
+    display: grid;
+    place-content: center;
+}
+
+/* [Right_Side_Ads] */
+
+/* [Footer_Ads]  */
+
+.Footer_Ads {
+    width: 1080px;
+    height: 100px; 
+    background-color: #FFFEFE;
+    box-shadow: var(--boxShadow);
+    border-radius: 12px;
+    margin: auto;
+    display: grid;
+    place-content: center;
+}
+
+/* [Footer_Ads]  */
